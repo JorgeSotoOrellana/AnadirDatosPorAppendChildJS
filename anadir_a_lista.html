@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<textarea type="" name="" id="lol"></textarea>
+<button onclick="myFunction()">Post</button>
+<ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
+<p>Click the button to append an item to the end of the list.</p>
+<script>
+function myFunction() {
+  var nada = document.getElementById("lol").value;
+  var node = document.createElement("LI");
+  var textnode = document.createTextNode(`${nada}`);
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node).nada;
+}
+</script>
+</body>
+</html>
